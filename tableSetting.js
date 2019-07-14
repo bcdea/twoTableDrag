@@ -119,6 +119,9 @@ function addListClass() {
         			'MODELNAME' : ui.helper[0].children[1].innerText.replace(/[\r\n]/g, "")
 				});
         		initLeftList();
+			$('#leftList_ul').animate({
+				scrollTop: leftData.length*47 + 13
+			}, 'slow');
         	}
         }
     });
