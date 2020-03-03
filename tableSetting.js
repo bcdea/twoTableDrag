@@ -120,7 +120,7 @@ function addListClass() {
 				});
         		initLeftList();
 			$('#leftList_ul').animate({
-				scrollTop: leftData.length*47 + 13
+				scrollTop: listData.length*47 + 13
 			}, 'slow');
         	}
         }
